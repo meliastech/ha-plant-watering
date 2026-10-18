@@ -1,0 +1,81 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add a plant",
+        "description": "Choosing a plant type fills in its watering settings from the plant database. You can change them on the plant afterwards.",
+        "data": {
+          "name": "Plant name",
+          "soil_sensor": "Soil moisture sensor",
+          "plant_type": "Plant type",
+          "area": "Room"
+        },
+        "data_description": {
+          "area": "Leave empty to use the soil sensor's room."
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "That soil sensor is already used by another plant."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Plant settings",
+        "menu_options": {
+          "alerts": "Sensor and alerts",
+          "photo": "Photo"
+        }
+      },
+      "alerts": {
+        "title": "Sensor and alerts",
+        "data": {
+          "soil_sensor": "Soil moisture sensor",
+          "notify_targets": "Send alerts to",
+          "daily_reminder": "Daily reminder while it still needs water",
+          "reminder_time": "Reminder time"
+        },
+        "data_description": {
+          "notify_targets": "Notify services such as notify.mobile_app_your_phone. Leave empty to only use the needs-water sensor and event in your own automations."
+        }
+      },
+      "photo": {
+        "title": "Photo",
+        "description": "Upload a photo of your plant to replace the generic picture.",
+        "data": {
+          "photo": "Photo",
+          "remove_photo": "Go back to the generic picture"
+        }
+      }
+    },
+    "error": {
+      "invalid_photo": "Upload a JPG, PNG, WebP or GIF image."
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "needs_water": { "name": "Needs water" }
+    },
+    "image": {
+      "photo": { "name": "Photo" }
+    },
+    "number": {
+      "min_moisture": { "name": "Minimum moisture" },
+      "water_amount": { "name": "Watering amount" }
+    },
+    "select": {
+      "plant_type": { "name": "Plant type" }
+    },
+    "sensor": {
+      "status": {
+        "name": "Status",
+        "state": {
+          "ok": "OK",
+          "needs_water": "Needs water",
+          "sensor_offline": "Sensor offline"
+        }
+      }
+    }
+  }
+}

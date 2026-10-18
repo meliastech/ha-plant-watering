@@ -1,0 +1,13 @@
+{
+  "domain": "plant_watering",
+  "name": "Plant Watering",
+  "codeowners": ["@meliastech"],
+  "config_flow": true,
+  "dependencies": ["file_upload", "http"],
+  "documentation": "https://github.com/meliastech/ha-plant-watering",
+  "integration_type": "device",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/meliastech/ha-plant-watering/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
