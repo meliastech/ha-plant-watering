@@ -37,6 +37,7 @@
     {"id": "basil", "name": "Basil", "scientific_name": "Ocimum basilicum", "image": "herb", "min_moisture": 45, "max_moisture": 75, "water_ml": 250, "light": "Full sun", "care": "Keep consistently moist; pinch out flowers."},
     {"id": "mint", "name": "Mint", "scientific_name": "Mentha spp.", "image": "herb", "min_moisture": 50, "max_moisture": 80, "water_ml": 250, "light": "Sun to part shade", "care": "Thirsty; never let it dry out."},
     {"id": "parsley", "name": "Parsley", "scientific_name": "Petroselinum crispum", "image": "herb", "min_moisture": 40, "max_moisture": 70, "water_ml": 250, "light": "Sun to part shade", "care": "Keep evenly moist."},
-    {"id": "rosemary", "name": "Rosemary", "scientific_name": "Salvia rosmarinus", "image": "herb", "min_moisture": 20, "max_moisture": 50, "water_ml": 200, "light": "Full sun", "care": "Let the soil dry between drinks; dislikes wet roots."}
+    {"id": "rosemary", "name": "Rosemary", "scientific_name": "Salvia rosmarinus", "image": "herb", "min_moisture": 20, "max_moisture": 50, "water_ml": 200, "light": "Full sun", "care": "Let the soil dry between drinks; dislikes wet roots."},
+    {"id": "tomato", "name": "Tomato", "scientific_name": "Solanum lycopersicum", "image": "leafy", "min_moisture": 40, "max_moisture": 70, "water_ml": 2000, "light": "Full sun (6-8 h)", "care": "Keep evenly moist; deep, regular watering. Letting it dry out then soaking causes split fruit and blossom end rot. Mulch to hold moisture. 2 L suits a plant in the ground or a large pot; use less in a small pot."}
   ]
 }
