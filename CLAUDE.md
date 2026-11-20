@@ -53,5 +53,6 @@ gotchas and todos there. Never save secrets.
   no valid topics". Fix is in GitHub repo settings, not code: add a description and topics (e.g.
   `home-assistant`, `hacs`, `hacs-integration`). Every PR will show the same failure until then.
 - Note: the workflow uses `hacs/action@main` and `home-assistant/actions/hassfest@master` (unpinned).
-- Open PRs: none besides this one.
-- Last updated: 12 Nov 2026
+- Plant DB now has 37 types: Tomato added 20 Nov 2026 (min 40, max 70, 2000 mL; 2 L because it's for in-ground or large pots, unlike the 15-20 cm pot default). Paul's backyard tomato currently uses the Custom type with the same values; switch it to Tomato after this merges and HACS updates.
+- Open PRs: Tomato plant type (this branch).
+- Last updated: 20 Nov 2026
